@@ -1,0 +1,15 @@
+#quantum chemistry
+pyscf
+pyscf-doci
+#quantum computing
+openfermion
+openfermionpyscf
+qiskit==1.0.1 
+qiskit-aer
+qiskit-algorithms
+qiskit-nature
+#math
+scipy
+numpy
+#plot
+matplotlib
