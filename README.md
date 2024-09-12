@@ -120,3 +120,18 @@ The options for the *plot.py*:
 
     ADAPTvsGGA plot runner
 ```
+
+### Dockerization of this repository
+
+We provide to any user a Dockerfile, made to allow the utilisation of this code inside a container. 
+
+To build the Docker container associated to this Dockerfile:
+```sh
+    docker build -t gga-code:latest -f Dockerfile .
+```
+
+To run the Docker container in an interactive way:
+```sh
+    docker run --rm -it -v $PWD:/mnt gga-code:lastest 
+```
+Doing so, you are linking your current local folder to the '/mnt' folder inside the Docker container. Then, you can copy the */data* folder created at the end of the simulation(s) into this /mnt folder in the Docker container. Doing so, you will have access locally to the simulated data.
