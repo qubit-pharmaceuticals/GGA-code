@@ -23,7 +23,7 @@ A quick description of the files:
 To use the codes present in this repository, we printed below the ArgParse help for the three codes using them, namely  *main.py*, *data_analysis.py* and *plot.py*.
 
 The options for the *main.py* code:
-'''sh
+```sh
 
     python main.py --help
     usage: python main.py --help
@@ -74,10 +74,10 @@ The options for the *main.py* code:
     --adapt_1d            If used, 1D optimisation for ADAPT-VQE procedure
 
     ADAPT-VQE runner
-'''
+```
 
 The options for the *data_analysis.py*:
-'''sh 
+```sh 
 
     python data_analysis.py --help 
     usage: python data_analysis_data.py --help
@@ -97,10 +97,10 @@ The options for the *data_analysis.py*:
                             Number of the run
 
     ADAPT data cleaning runner
-'''
+```
 
 The options for the *plot.py*:
-'''sh 
+```sh 
 
     python plot.py --help
     usage: python plot.py --help
@@ -119,4 +119,4 @@ The options for the *plot.py*:
                             Name of the optimizer used for the simulation; if several were used, use all
 
     ADAPTvsGGA plot runner
-'''
+```
