@@ -24,6 +24,7 @@ To use the codes present in this repository, we printed below the ArgParse help 
 
 The options for the *main.py* code:
 '''sh
+
     python main.py --help
     usage: python main.py --help
 
@@ -77,6 +78,7 @@ The options for the *main.py* code:
 
 The options for the *data_analysis.py*:
 '''sh 
+
     python data_analysis.py --help 
     usage: python data_analysis_data.py --help
 
@@ -99,6 +101,7 @@ The options for the *data_analysis.py*:
 
 The options for the *plot.py*:
 '''sh 
+
     python plot.py --help
     usage: python plot.py --help
 
